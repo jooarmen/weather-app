@@ -75,20 +75,20 @@ const Weatherapp = ()=>{
                 <img src={wicon} alt="" />
 
             </div>
-            <div className="weather-temp">80°f</div>
+            <div className="weather-temp">-</div>
             <div className="weather-location">Irvine</div>
             <div className="data-container">
                 <div className="element">
                     <img src={humidity_icon} alt="" className="icon" />
                     <div className="data">
-                        <div className="humidity-percent">15%</div>
+                        <div className="humidity-percent">-%</div>
                         <div className="text">Humidity</div>
                     </div>
                 </div>
                 <div className="element">
                     <img src={wind_icon} alt="" className="icon" />
                     <div className="data">
-                        <div className="wind-rate">15 mph</div>
+                        <div className="wind-rate">- mph</div>
                         <div className="text">Wind Speed</div>
                     </div>
                 </div>
